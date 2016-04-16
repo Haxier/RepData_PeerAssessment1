@@ -142,7 +142,7 @@ hist(total_steps$steps, main = &quot;Total steps by day&quot;, xlab = &quot;Step
 <div id="what-is-the-average-daily-activity-pattern" class="section level2">
 <h2>What is the average daily activity pattern?</h2>
 <ol style="list-style-type: decimal">
-<li>Make a time series plot (i.e. type = “l”) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)</li>
+<li>Make a time series plot of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)</li>
 </ol>
 <pre class="r"><code># calculate the mean of steps taken by interval
 activity_mean &lt;- aggregate(steps ~ interval, data = steps, mean)
